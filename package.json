@@ -1,6 +1,6 @@
 {
   "name": "hierarchy",
-  "website" : "http://heyyyjude42.github.io/hierarchy",
+  "homepage" : "http://heyyyjude42.github.io/hierarchy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
