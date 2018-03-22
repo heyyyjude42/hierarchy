@@ -1,10 +1,8 @@
 [
-  {"id": 1, "h1": "Playfair", "h2": "Roboto", "text": "More things jfsldj fjljf ldsjf fjdslfjljsf jlfsd fjdslf sdjf l"},
-  {"id": 2, "h1": "Montserrat", "h2": "Sacramento", "text": "Lora"},
-  {"id": 3, "h1": "Something", "h2": "Something Else", "text": "Wow"},
-  {"id": 4, "h1": "Hmm", "h2": "Boo", "text": "More things"},
-  {"id": 5, "h1": "Playfair", "h2": "Roboto", "text": "Playfair"},
-  {"id": 6, "h1": "Montserrat", "h2": "Sacramento", "text": "Lora"},
-  {"id": 7, "h1": "Something", "h2": "Something Else", "text": "Wow"},
-  {"id": 8, "h1": "Hmm", "h2": "Boo", "text": "More things jfsldj fjljf ldsjf fjdslfjljsf jlfsd fjdslf sdjf l"}
+  {"h1": "Playfair Display", "h2" : {"font-family" : "Work Sans", "font-style" : "normal", "font-size" : "16px"}, "text": "Playfair Display"},
+  {"h1": "Montserrat", "h2" : {"font-family" : "Sacramento", "font-style" : "normal", "font-size" : "25px"}, "text": "Montserrat"},
+  {"h1": "Oswald", "h2" : {"font-family" : "Raleway", "font-style" : "italic", "font-weight" : "bold"}, "text": "Raleway"},
+  {"h1": "PT Sans", "h2" : {"font-family" : "PT Serif", "font-weight" : "bold"}, "text": "PT Serif"},
+  {"h1": "Average Sans", "h2" : {"font-family" : "Average Sans", "font-style" : "normal"}, "text": "Average"},
+  {"h1": "Oswald", "h2" : {"font-family" : "Lora", "font-style" : "italic"}, "text": "Lora"}
 ]
