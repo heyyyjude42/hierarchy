@@ -1,8 +1,32 @@
 [
-  {"h1": "Playfair Display", "h2" : {"font-family" : "Work Sans", "font-style" : "normal", "font-size" : "16px"}, "text": "Playfair Display"},
-  {"h1": "Montserrat", "h2" : {"font-family" : "Sacramento", "font-style" : "normal", "font-size" : "25px"}, "text": "Montserrat"},
-  {"h1": "Oswald", "h2" : {"font-family" : "Raleway", "font-style" : "italic", "font-weight" : "bold"}, "text": "Raleway"},
-  {"h1": "PT Sans", "h2" : {"font-family" : "PT Serif", "font-weight" : "bold"}, "text": "PT Serif"},
-  {"h1": "Average Sans", "h2" : {"font-family" : "Average Sans", "font-style" : "normal"}, "text": "Average"},
-  {"h1": "Oswald", "h2" : {"font-family" : "Lora", "font-style" : "italic"}, "text": "Lora"}
+  {
+    "h1": {"font-family" : "Playfair Display", "font-style" : "italic"},
+    "h2" : {"font-family" : "Work Sans", "font-style" : "normal", "font-size" : "16px", "text-transform" : "uppercase"},
+    "text": {"font-family" : "Playfair Display"}
+  },
+  {
+    "h1": {"font-family" : "Sacramento", "font-size" : "35px", "margin-bottom" : -5},
+    "h2" : {"font-family" : "Montserrat", "font-weight" : "bold"},
+    "text": {"font-family" : "Montserrat"}
+  },
+  {
+    "h1": {"font-family" : "Oswald"},
+    "h2" : {"font-family" : "Raleway", "font-weight" : "bold"},
+    "text": {"font-family" : "Raleway"}
+  },
+  {
+    "h1": {"font-family" : "PT Sans", "font-weight" : "bold"},
+    "h2" : {"font-family" : "PT Serif", "font-weight" : "bold"},
+    "text": {"font-family" : "PT Serif"}
+  },
+  {
+    "h1": {"font-family" : "Average Sans"},
+    "h2" : {"font-family" : "Average Sans", "font-style" : "normal", "text-transform" : "uppercase", "letter-spacing" : "2px"},
+    "text": {"font-family" : "Average"}
+  },
+  {
+    "h1": {"font-family" : "Oswald"},
+    "h2" : {"font-family" : "Lora", "font-style" : "italic"},
+    "text": {"font-family" : "Lora"}
+  }
 ]

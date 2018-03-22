@@ -5,7 +5,7 @@ body {
   text-align: center;
 }
 
-.title {
+.head {
   letter-spacing: 3px
 }
 
@@ -105,10 +105,22 @@ body {
   margin-top: 30px;
 }
 
-h3 {
-  font-size: 25px;
+.title {
+  font-size: 30px;
 }
 
 .subtitle {
   margin-bottom: -5px;
+}
+
+.text {
+  line-height: 1.6;
+}
+
+.modaltext {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 15px;
+  margin-bottom: 30px;
 }

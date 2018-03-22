@@ -6,14 +6,13 @@ import {
 } from "react-router-dom";
 import Home from "./Home.js";
 import Sandbox from "./Sandbox.js";
-import LazyLoad from "react-lazyload";
 
 class Main extends Component {
   render() {
     return (
       <HashRouter>
         <div>
-          <p class="title">· HIERARCHY ·</p>
+          <p class="head">· HIERARCHY ·</p>
           <br/>
           <div class="topnav">
             <NavLink exact to="/">Home</NavLink>
