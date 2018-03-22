@@ -15,11 +15,11 @@ class Main extends Component {
           <p class="title">· HIERARCHY ·</p>
           <br/>
           <div class="topnav">
-            <NavLink to="/home">Home</NavLink>
+            <NavLink exact to="/">Home</NavLink>
             <NavLink to="/sandbox">Create</NavLink>
           </div>
           <div className="content">
-            <Route path="/home" component={Home}/>
+            <Route exact path="/" component={Home}/>
             <Route path="/sandbox" component={Sandbox}/>
           </div>
         </div>
