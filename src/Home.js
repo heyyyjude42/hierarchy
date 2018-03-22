@@ -49,15 +49,15 @@ class Hierarchy extends React.Component {
 
   render() {
     return (
-      <div class="masonrywrapper" onClick={this.props.onClick}>
-        <LazyLoad>
-          <div class="masonryitem">
-            <p class="title" style={this.props.combo.h1}>{this.state.title}</p>
-            <p class="subtitle" style={this.props.combo.h2}>{this.state.subtitle}</p>
-            <p class="text" style={this.props.combo.text}>{this.state.dummy}</p>
-            <p>{fontLabel(this.props.combo)}</p>
-          </div>
-        </LazyLoad>
+        <div class="masonrywrapper" onClick={this.props.onClick}>
+          <LazyLoad throttle={200}>
+            <div class="masonryitem">
+              <p class="title" style={this.props.combo.h1}>{this.state.title}</p>
+              <p class="subtitle" style={this.props.combo.h2}>{this.state.subtitle}</p>
+              <p class="text" style={this.props.combo.text}>{this.state.dummy}</p>
+              <p>{fontLabel(this.props.combo)}</p>
+            </div>
+          </LazyLoad>
       </div>
     );
   }
