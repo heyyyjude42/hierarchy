@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./Home.js";
 import Sandbox from "./Sandbox.js";
+import LazyLoad from "react-lazyload";
 
 class Main extends Component {
   render() {

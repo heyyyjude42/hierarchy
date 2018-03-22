@@ -1,11 +1,12 @@
 {
   "name": "hierarchy",
-  "homepage" : "http://heyyyjude42.github.io/hierarchy",
+  "homepage": "http://heyyyjude42.github.io/hierarchy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-lazyload": "^2.3.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1"
   },

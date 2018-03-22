@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import combos from "./data/fontCombos.json"
 import fillers from "./data/fillers.json"
+import LazyLoad from "react-lazyload";
 
 class Home extends Component {
   render() {
@@ -30,12 +31,14 @@ function hierarchy(props) {
 
   return (
     <div class="masonrywrapper">
-      <div class="masonryitem">
-        <h3 style={{"font-family": props.h1}}>{filler["Title"]}</h3>
-        <p class="subtitle" style={props.h2}>{filler["Subtitle"]}</p>
-        <p style={{"font-family": props.text}}>{filler["Dummy"]}</p>
-        <p>{fontLabel(props)}</p>
-      </div>
+      <LazyLoad>
+        <div class="masonryitem">
+          <h3 style={{"font-family": props.h1}}>{filler["Title"]}</h3>
+          <p class="subtitle" style={props.h2}>{filler["Subtitle"]}</p>
+          <p style={{"font-family": props.text}}>{filler["Dummy"]}</p>
+          <p>{fontLabel(props)}</p>
+        </div>
+      </LazyLoad>
     </div>
   );
 }
