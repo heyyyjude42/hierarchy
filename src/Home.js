@@ -51,7 +51,7 @@ class Hierarchy extends React.Component {
   render() {
     return (
       <div class="masonrywrapper" onClick={this.props.onClick}>
-          <LazyLoad throttle={200} height={250}>
+          <LazyLoad throttle={200}>
             <TransitionGroup>
               <CSSTransition key="1" classNames="fade" timeout={500}>
               <div class="masonryitem">
@@ -71,16 +71,21 @@ class Hierarchy extends React.Component {
 function getLongText(combo) {
   const rand = Math.floor(Math.random() * longFillers.length);
   const filler = longFillers[rand];
-  var dummy1 = filler.Dummy1;
-  var dummy2 = filler.Dummy2;
+  const dummies = filler.Dummies;
 
   return (
     <div style={{"text-align" : "left", "padding-left" : 10, "padding-right" : 10}}>
       <p class="title" style={combo.h1}>{filler.Title}</p>
-      <p class="subtitle" style={combo.h2}>{filler.Subtitle1}</p>
-      <p class="text modaltext" style={combo.text}>{dummy1.split("\n").map(i => {return <p>{i}</p>})}</p>
-      <p class="subtitle" style={combo.h2}>{filler.Subtitle2}</p>
-      <p class="text modaltext" style={combo.text}>{dummy2.split("\n").map(i => {return <p>{i}</p>})}</p>
+      {
+        dummies.map(function (dummy) {
+          return (
+            <div>
+              <p class="subtitle" style={combo.h2}>{dummy.Subtitle}</p>
+              <p class="text modaltext" style={combo.text}>{dummy.Text.split("\n").map(i => {return <p>{i}</p>})}</p>
+            </div>
+          );
+        })
+      }
     </div>
   );
 }

@@ -1,5 +1,15 @@
 [
   {
+    "h1": {"font-family" : "Montserrat", "font-weight" : "bold", "text-transform" : "uppercase"},
+    "h2" : {"font-family" : "Neuton", "font-weight" : "bold", "font-size" : 18},
+    "text" : {"font-family" : "Neuton", "font-size" : 16}
+  },
+  {
+    "h1": {"font-family" : "Raleway", "font-weight" : "bold"},
+    "h2" : {"font-family" : "Cardo", "font-style" : "italic"},
+    "text" : {"font-family" : "Cardo"}
+  },
+  {
     "h1": {"font-family" : "Amatic SC", "font-weight" : "bold", "letter-spacing" : 2},
     "h2" : {"font-family" : "Josefin Slab"},
     "text": {"font-family" : "Josefin Sans"}
