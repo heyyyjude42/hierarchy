@@ -4,6 +4,7 @@ import fillers from "./data/fillers.json"
 import LazyLoad from "react-lazyload";
 import Modal from 'react-responsive-modal';
 import longFillers from "./data/longFillers.json";
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 class Home extends Component {
   constructor(props) {
@@ -49,14 +50,18 @@ class Hierarchy extends React.Component {
 
   render() {
     return (
-        <div class="masonrywrapper" onClick={this.props.onClick}>
-          <LazyLoad throttle={200}>
-            <div class="masonryitem">
-              <p class="title" style={this.props.combo.h1}>{this.state.title}</p>
-              <p class="subtitle" style={this.props.combo.h2}>{this.state.subtitle}</p>
-              <p class="text" style={this.props.combo.text}>{this.state.dummy}</p>
-              <p>{fontLabel(this.props.combo)}</p>
-            </div>
+      <div class="masonrywrapper" onClick={this.props.onClick}>
+          <LazyLoad throttle={200} height={250}>
+            <TransitionGroup>
+              <CSSTransition key="1" classNames="fade" timeout={500}>
+              <div class="masonryitem">
+                <p class="title" style={this.props.combo.h1}>{this.state.title}</p>
+                <p class="subtitle" style={this.props.combo.h2}>{this.state.subtitle}</p>
+                <p class="text" style={this.props.combo.text}>{this.state.dummy}</p>
+                <p>{fontLabel(this.props.combo)}</p>
+              </div>
+            </CSSTransition>
+            </TransitionGroup>
           </LazyLoad>
       </div>
     );
