@@ -13,6 +13,23 @@
     ]
   },
   {
+    "Title" : "Eoin Colfer",
+    "Dummies" : [
+      {
+        "Subtitle" : "Artemis Fowl",
+        "Text" : "Ho Chi Minh City in the summer. Sweltering by anyone’s standards. Needless to say, Artemis Fowl would not have been willing to put up with such discomfort if something extremely important had not been at stake. Important to the plan.\nSun did not suit Artemis. He did not look well in it. Long hours indoors in front of a computer screen had bleached the glow from his skin. He was white as a vampire and almost as testy in the light of day. “I hope this isn’t another wild-goose chase, Butler,” he said, his voice soft and clipped. “Especially after Cairo.”\nIt was a gentle rebuke. They had traveled to Egypt on the word of Butler’s informant.\n“No, sir. I’m certain this time. Nguyen is a good man.”\n“Hmm,” droned Artemis, unconvinced.\nPassersby would have been amazed to hear the large Eurasian man refer to the boy as sir. This was, after all, the third millennium. But this was no ordinary relationship, and these were no ordinary tourists."
+      },
+      {
+        "Subtitle" : "The Eternity Code",
+        "Text" : "Artemis Fowl was almost content. His father would be discharged from Helsinki’s University Hospital any day now. He himself was looking forward to a delicious lunch at En Fin, a London seafood restaurant, and his business contact was due to arrive at any moment. All according to plan.\nHis bodyguard, Butler, was not quite so relaxed. But then again, he was never truly at ease. One did not become one of the world’s deadliest men by dropping one’s guard.\nThe giant Eurasian man flitted between tables in the Knightsbridge bistro, hiding the usual security items and clearing exit routes.\n“Are you wearing the earplugs?” he asked his employer.\nArtemis sighed deeply. “Yes, Butler, though I hardly think we are in danger here. It’s a perfectly legal business meeting in broad daylight, for heaven’s sake.”\nThe earplugs were actually sonic filter sponges cannibalized from fairy Lower Elements Police helmets. Butler had obtained the helmets, along with a treasure trove of fairy technology, when one of Artemis’s schemes had pitted him against a fairy SWAT team more than a year before. The sponges were grown in LEP labs, and had tiny porous membranes that sealed automatically when decibel levels surpassed safety standards.\n“Maybe so, Artemis, but the thing about assassins is that they like to catch you unawares.”\n“Perhaps,” replied Artemis, perusing the menu’s entrée section. “But who could possibly have a motive to kill us?”"
+      },
+      {
+        "Subtitle" : "The Opal Deception",
+        "Text" : "This article was posted on the fairy internet on the site www.horsesense.gnom. Though it has never been proven, it is believed that this site is maintained by the centaur Foaly, technical consultant to the Lower Elements Police. Almost every detail of the following account contradicts the official release from the LEP Press Office.\nWe've all heard the official explanation for the tragic events surrounding the Zito Probe investigation. LEP Internal Affairs would have us believe that one of their officers was almost singlehandedly responsible for the entire affair. I am posting this article to ensure that you do not rush to judgement without all the facts. The LEP may be able to silence their officers, but they cannot censor me.\nI know for an absolute fact that the officer in question, Captain Holly Short, did not commit the despicable crime she is accused of, and by the time you have finished reading this account, you will know it too. "
+      }
+    ]
+  },
+  {
     "Title" : "J.K. Rowling",
     "Dummies" : [
       {
@@ -46,8 +63,25 @@
         "Text" : "If you are interested in stories with happy endings, you would be better off reading some other book. In this book, not only is there no happy ending, there is no happy beginning and very few happy things in the middle. This is because not very many happy things happened in the lives of the three Baudelaire youngsters. Violet, Klaus, and Sunny Baudelaire were intelligent children, and they were charming, and resourceful, and had pleasant facial features, but they were extremely unlucky, and most everything that happened to them was rife with misfortune, misery, and despair. I’m sorry to tell you this, but that is how the story goes."
       },
       {
+        "Subtitle" : "The Wide Window",
+        "Text" : "If you didn't know much about the Baudelaire orphans, and you saw them sitting on their suitcases at Damocles Dock, you might think that they were bound for an exciting adventure. After all, the three children had just disembarked from the Fickle Ferry, which had driven them across Lake Lachrymose to live with their Aunt Josephine, and in most cases such a situation would lead to thrillingly good times. But of course you would be dead wrong. For although Violet, Klaus, and Sunny Baudelaire were about to experience events that would be both exciting and memorable, they would not be exciting and memorable like having your fortune told or going to a rodeo. Their adventure would be exciting and memorable like being chased by a werewolf through a field of thorny bushes at midnight with nobody around to help you. If you are interested in reading a story filled with thrillingly good times, I am sorry to inform you that you are most certainly reading the wrong book, because the Baudelaires experience very few good times over the course of their gloomy and miserable lives."
+      },
+      {
         "Subtitle" : "The Austere Academy",
         "Text" : "If you were going to give a gold medal to the least delightful person on Earth, you would have to give that medal to a person named Carmelita Spats, and if you didn't give it to her, Carmelita Spats was the sort of person who would snatch it from your hands anyway. Carmelita Spats was rude, she was violent, and she was filthy, and it is really a shame that I must describe her to you, because there are enough ghastly and distressing things in this story without even mentioning such an unpleasant person. \nIt is the Baudelaire orphans, thank goodness, who are the heroes of this story, not the dreadful Carmelita Spats, and if you wanted to give a gold medal to Violet, Klaus, and Sunny Baudelaire, it would be for survival in the face of adversity. Adversity is a word which here means \"trouble,\" and there are very few people in this world who have had the sort of troubling adversity that follows these three children wherever they go. Their trouble began one day when they were relaxing at the beach and received the distressing news that their parents had been killed in a terrible fire, and so were sent to live with a distant relative named Count Olaf."
+      }
+    ]
+  },
+  {
+    "Title" : "Andy Weir",
+    "Dummies" : [
+      {
+        "Subtitle" : "The Martian",
+        "Text" : "I’m pretty much f*cked. That’s my considered opinion. F*cked. Six days into what should be one of the greatest two months of my life, and it’s turned into a nightmare. I don’t even know who’ll read this. I guess someone will find it eventually. Maybe a hundred years from now. For the record…I didn’t die on Sol 6. Certainly the rest of the crew thought I did, and I can’t blame them. Maybe there’ll be a day of national mourning for me, and my Wikipedia page will say, “Mark Watney is the only human being to have died on Mars.”"
+      },
+      {
+        "Subtitle" : "The Egg",
+        "Text" : "You were on your way home when you died.\nIt was a car accident. Nothing particularly remarkable, but fatal nonetheless. You left behind a wife and two children. It was a painless death. The EMTs tried their best to save you, but to no avail. Your body was so utterly shattered you were better off, trust me.\nAnd that’s when you met me.\n“What… what happened?” You asked. “Where am I?”\n“You died,” I said, matter-of-factly. No point in mincing words.\n“There was a… a truck and it was skidding…”\n“Yup,” I said.\n“I… I died?”\n“Yup. But don’t feel bad about it. Everyone dies,” I said.\nYou looked around. There was nothingness. Just you and me. “What is this place?” You asked. “Is this the afterlife?”\n“More or less,” I said.\n“Are you god?” You asked.\n“Yup,” I replied. “I’m God.”\n“My kids… my wife,” you said.\n“What about them?”\n“Will they be all right?”\n“That’s what I like to see,” I said. “You just died and your main concern is for your family. That’s good stuff right there.”"
       }
     ]
   }

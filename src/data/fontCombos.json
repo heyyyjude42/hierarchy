@@ -1,6 +1,11 @@
 [
   {
-    "h1": {"font-family" : "Montserrat", "font-weight" : "bold", "text-transform" : "uppercase"},
+    "h1" : {"font-family" : "Roboto Slab"},
+    "h2" : {"font-family" : "Crimson Text", "font-style" : "italic", "font-size" : 20},
+    "text" : {"font-family" : "Crimson Text", "font-size" : 16}
+  },
+  {
+    "h1": {"font-family" : "Montserrat", "font-weight" : "bold", "text-transform" : "uppercase", "font-size" : 22},
     "h2" : {"font-family" : "Neuton", "font-weight" : "bold", "font-size" : 18},
     "text" : {"font-family" : "Neuton", "font-size" : 16}
   },
@@ -42,7 +47,7 @@
   {
     "h1": {"font-family" : "Sacramento", "font-size" : "35px", "margin-bottom" : -5},
     "h2" : {"font-family" : "Montserrat", "font-weight" : "bold"},
-    "text": {"font-family" : "Montserrat"}
+    "text": {"font-family" : "Montserrat", "font-size" : 14}
   },
   {
     "h1": {"font-family" : "Oswald"},
