@@ -13,14 +13,15 @@ class Main extends Component {
       <HashRouter>
         <div>
           <p class="head">· HIERARCHY ·</p>
-          <br/>
+          <br />
           <div class="topnav">
             <NavLink exact to="/">Home</NavLink>
-            <NavLink to="/sandbox">Create</NavLink>
+            More Features Coming Soon
+            {/* <NavLink to="/sandbox">Create</NavLink> */}
           </div>
           <div className="content">
-            <Route exact path="/" component={Home}/>
-            <Route path="/sandbox" component={Sandbox}/>
+            <Route exact path="/" component={Home} />
+            {/* <Route path="/sandbox" component={Sandbox}/> */}
           </div>
         </div>
       </HashRouter>
