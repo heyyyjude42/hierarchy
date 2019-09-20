@@ -16,7 +16,7 @@ class Main extends Component {
           <br />
           <div class="topnav">
             <NavLink exact to="/">Home</NavLink>
-            More Features Coming Soon
+            <a>More Features Coming Soon</a>
             {/* <NavLink to="/sandbox">Create</NavLink> */}
           </div>
           <div className="content">
